@@ -1,0 +1,22 @@
+h1 {
+    text-align-last: right;
+    }
+    
+    .inputsection {
+        text-align:end;
+        width: 60vw
+    }
+    /*.btnsumit {
+        align-items: end;
+        background-color: black;
+        color:aliceblue;
+        width: 50%;
+    }*/
+    .btnsumit {
+        padding: 10px;
+        margin: 24px;
+        cursor: pointer;
+        font-size: 24px;
+        background-color: #247BA0;
+        color: white;
+      }
