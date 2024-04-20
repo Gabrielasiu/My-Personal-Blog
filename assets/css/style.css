@@ -1,0 +1,14 @@
+h1 {
+text-align-last: right;
+}
+
+.inputsection {
+    text-align:end;
+    width: 60vw
+}
+.btnsumit {
+    align-items: end;
+    background-color: black;
+    color:aliceblue;
+    width: 50%;
+}
