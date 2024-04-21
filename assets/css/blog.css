@@ -16,11 +16,20 @@
    justify-content: end;
 }
 
-.light {
+#light {
    background-color: white;
    border: none;
    font-size: 17px;
+   cursor: pointer;
 }
+
+/*dark mode */
+.dark-mode {
+   background-color: rgb(0, 0, 0);
+  color: rgb(213, 212, 212);
+}
+
+
 
 .back {
    background-color: black;
