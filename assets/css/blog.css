@@ -1,4 +1,33 @@
-h1 {
-   text-align: center; 
+h4 {
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-left: 10px;
+  /* text-decoration: underline;
+   width: 100%;*/
+
+}
+input {
+   width: 90%;
+   height: 50px;
+   margin: 10px;
+   border-style: none;
+   /*text-align: top; VER COMO HACER PARA
+   QUE EL HERE IS MY CONTENT INICIE JUSTO ABAJO DEL 
+   BLOG TITLE*/
+}
+.posted {
+   width: 30%;
+   height: 15px;  
+}
+p{
+   margin-left: 10px;
+}
+.blogtitle{
+   border-style: solid;
+   margin-top: 10px;
+}
+
+hr {
+   border-style:solid;
+   border-color: gray;
+   width: 97%;
 }

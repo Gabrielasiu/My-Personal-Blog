@@ -50,8 +50,6 @@ function func3 (){
     console.log(content);
 }
 sumit.addEventListener('click', func3);
-$('#link').click();
-//document.getElementById('').click();
 
 
 localStorage.setItem('userName', userInput);
