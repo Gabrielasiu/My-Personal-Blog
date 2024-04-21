@@ -1,3 +1,44 @@
+*{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.headerr {
+   display: flex;
+   width: 100 vw;
+   align-items: start;
+   justify-content: start;
+}
+
+.buttons {
+   display: flex;
+   align-items: end;
+   justify-content: end;
+}
+
+.light {
+   background-color: white;
+   border: none;
+   font-size: 17px;
+}
+
+.back {
+   background-color: black;
+   color: white;
+   text-decoration: none;
+   font-size: 15px;
+}
+#link {
+   text-decoration: none;
+   color: aliceblue;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hrheader {
+   width: 100%;
+   border: 2.3px solid black;
+}
+
+
 h4 {
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    margin-left: 10px;
@@ -8,7 +49,7 @@ h4 {
 input {
    width: 90%;
    height: 50px;
-   margin: 10px;
+   margin: 5px;
    border-style: none;
    /*text-align: top; VER COMO HACER PARA
    QUE EL HERE IS MY CONTENT INICIE JUSTO ABAJO DEL 
@@ -30,4 +71,16 @@ hr {
    border-style:solid;
    border-color: gray;
    width: 97%;
+}
+
+.hrfooter {
+   width: 100%;
+   border: 2.3px solid black;
+}
+.pfooter {
+   text-align: center;
+}
+
+.footerinf {
+   font-style: italic;
 }
