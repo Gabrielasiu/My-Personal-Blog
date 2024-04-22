@@ -36,6 +36,13 @@ width: 90%;
    margin: 5px;
 }
 
+#titleInput{
+    width: 90%;
+       height: 30px;
+       margin: 5px;
+    }
+    
+
 #usercont {
     width: 90%;
    height: 100px;
@@ -43,7 +50,6 @@ width: 90%;
 }
 
 #mysumit {
-    
     width: 80vh;
     margin: 0;
     background-color: black;
