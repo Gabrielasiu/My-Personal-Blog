@@ -1,4 +1,6 @@
 
+//const declared
+
 const titleFromLocalStorage = localStorage.getItem("Title")
 const contentFromLocalStorage = localStorage.getItem("Content")
 const userFromLocalStorage = localStorage.getItem("Username")
@@ -8,21 +10,21 @@ function myFunction() {
     element.classList.toggle("dark-mode");
 }
 
+//made my divs 
 
 const posts = document.querySelector(".posts");
 
-function createElement() {
+
+function calltitle() {
     const blogcontainer = document.createElement('div');
     blogcontainer.classList.add("blogcontainer");
     posts.appendChild(blogcontainer);
-    //kuego agtegar los otros con los nombres del html (notas)
     const title = document.createElement('h4');
     title.classList.add("title");
     title.textContent = titleFromLocalStorage;
     blogcontainer.appendChild(title);
 }
-createElement();
-
+calltitle();
 
 
 function callcontent() {
