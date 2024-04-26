@@ -5,19 +5,24 @@ let contents=[]
 
 
 //gets my value from the localStorage
-function getLocalStorage (){
+function getLocalStorageUser (){
+    console.log("one")
     if (!(localStorage.getItem("Username")=== null)){
         userNames = JSON.parse(localStorage.getItem("Username"));
     }
 }
 
-function getLocalStorage (){
+function getLocalStorageTitle (){
+    
+    console.log("two")
+
     if (!(localStorage.getItem("Title")=== null)){
         titles = JSON.parse(localStorage.getItem("Title"));
     }
 }
 
-function getLocalStorage (){
+function getLocalStorageContent (){
+    console.log("three")
     if (!(localStorage.getItem("Content")=== null)){
         contents = JSON.parse(localStorage.getItem("Content"));
     }
@@ -38,7 +43,7 @@ sumitBtn.addEventListener('click', sumit);
  function sumit(){
  const uInput = document.getElementById('userInput'); 
  userNames.push(uInput.value);
- localStorage.setItem('Username',JSON.stringify(userNames));
+ localStorage.setItem('Username', JSON.stringify(userNames));
 
  const tInput = document.getElementById('titleInput');
  titles.push(tInput.value);
@@ -50,5 +55,12 @@ sumitBtn.addEventListener('click', sumit);
  }
 
  //calls the function
-getLocalStorage();
+getLocalStorageUser();
+getLocalStorageTitle();
+getLocalStorageContent();
+
+
+console.log(userNames);
+console.log(titles);
+console.log(contents);
 
